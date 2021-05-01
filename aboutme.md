@@ -4,13 +4,5 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Hoang and Im'm currently a junior at Ho Chi Minh University of Technology (HCMUT). Computer Vision came to me at time I had felt disorientated about my career path in Computer Science like a miracle. This blog is a small project of mine for sharing all things i've learnt and my own stories. This blog will be used both English and Vietnamese so please do not be annoyed, i'm so sorry about this. Finally, Thank you for visiting my own blog. Hope that will help you a little bit with Computer Vision.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
