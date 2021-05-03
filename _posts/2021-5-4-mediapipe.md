@@ -1,3 +1,12 @@
+---
+layout: post
+title: Introduce about Mediapipe
+subtitle: A little bit introduction about Mediapipe
+thumbnail-img: /assets/img/mediapipe.png
+share-img: /assets/img/path.jpg
+tags: [Mediapipe, Computer Vision, Google Framework]
+---
+
 ## What is Mediapipe
 It is a open source framework released by google for machine learning solutions. A key “selling” point (it’s free) of Mediapipe is that the code is written in c++, but it can easily be deployed to any platform, from web assembly to Android to MacOS.      
 When it first released, Mediapipe had only a few demos, but now their GitHub page boasts almost a dozen different demos from persistent object tracking, AR hair coloring, to pose tracking that may leave OpenPose in the dust.
