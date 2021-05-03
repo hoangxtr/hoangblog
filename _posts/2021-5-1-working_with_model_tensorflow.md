@@ -3,7 +3,7 @@ layout: post
 title: Working with model in Tensorflow
 subtitle: All things you need to use model in Tensorflow
 cover-img: /assets/img/tensorflow.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: /assets/img/tensorflow.jpg
 share-img: /assets/img/path.jpg
 tags: [Tensorflow, Computer Vision]
 ---
