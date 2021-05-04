@@ -51,6 +51,7 @@ new_model = model_from_json(json_string)
 model.save_weights('weights.h5')
 ```
 - Load weights   
+
 ```python
 model = Sequential()
 model.add(Conv2D(64, (3,3), input_shape=(64,64), activation='relu')
