@@ -34,3 +34,15 @@ tags: [Deep learning, Computer Vision, Backpropagation, Neural network]
 
         - With hidden layer:
         ![](../assets/img/backprob3.jpg)
+        Asume that **k** is the layer next to **j**
+### Implement backpropagation step by step
+- Initiate weights for neural network, randomly or by some methods
+- For each training example:
+    - Forward the input to calculate the value for nodes (hidden or output layer).
+    - For each output k (model have many output): 
+    ![equation](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_red&space;\inline&space;\delta&space;_{k}&space;=&space;o&space;*&space;(1-o)&space;*&space;(t-o))
+    - For each node in hidden layer (h is activation):  
+    ![equation](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_red&space;\inline&space;\delta&space;_{j}&space;=&space;\sum_{k}^{}&space;\delta&space;_{k}&space;*&space;w_{kj}&space;*&space;h'(a&space;_{j}))
+
+    - Update each network weight:  
+    ![equation](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_red&space;\inline&space;w&space;_{ji}&space;<-&space;w&space;_{ji}&space;&plus;&space;\eta&space;&space;*&space;\delta&space;_{j}&space;*&space;z&space;_{j})
