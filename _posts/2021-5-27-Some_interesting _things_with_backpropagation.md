@@ -2,7 +2,7 @@
 layout: post
 title: Understanding backpropagation
 subtitle: Some knowleadges about backpropagation
-thumbnail-img: /assets/img/mediapipe.png
+thumbnail-img: /assets/img/backpropagation_title.jpeg
 share-img: /assets/img/path.jpg
 tags: [Deep learning, Computer Vision, Backpropagation, Neural network]
 ---
