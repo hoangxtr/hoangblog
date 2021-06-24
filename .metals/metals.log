@@ -2,3 +2,4 @@
 [0m2021.06.21 15:08:40 INFO  time: initialize in 8.71s[0m
 [0m2021.06.21 15:08:40 WARN  Build server is not auto-connectable.[0m
 [0m2021.06.21 15:08:40 WARN  no build tool detected in workspace '/home/xuanhoang232k/Desktop/myblog/hoangxtr.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.21 21:39:02 INFO  shutting down Metals[0m
