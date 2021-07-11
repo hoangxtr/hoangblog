@@ -29,6 +29,7 @@ def se_block(in_block, ch, ratio=16):
 ```
 
 ![](https://miro.medium.com/max/748/1*WNk-atKDUsZPvMddvYL01g.png)
+
 These five steps add almost no additional computation cost (about 0.26% GFLOPs of ResNet-50 as author's experiment). The authors show that by adding SE-blocks to ResNet-50 it can expect almost the same accuracy as ResNet-101 delivers. This is impressive for a model requiring only half of the computational costs.
 
 When put SE-blocks to resnet, we have SE-resnet, it can be shown like that bellow:
