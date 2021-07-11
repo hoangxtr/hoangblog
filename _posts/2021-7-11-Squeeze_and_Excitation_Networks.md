@@ -40,3 +40,8 @@ The paper further investigates other architectures like Inception, Inception-Res
 ![](https://miro.medium.com/max/875/1*35_UHH8pDshPfqtBB-MbDA.png)
 
 What amazes me the most about SENets is just how simple and yet effective they are. Being able to add this approach to any model at almost no cost, should make you jump back to the drawing board and retraining everything you ever built. 
+
+
+## Reference
+https://bit.ly/2VwK9iX  
+https://arxiv.org/pdf/1709.01507.pdf
