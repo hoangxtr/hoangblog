@@ -4,7 +4,7 @@ title: Unsupervised Scale-consistent Depth Learning from Video
 subtitle: Something news with monocular depth estimation
 thumbnail-img: /assets/img/monodepth/2105.11610v1/thumbnail.png
 share-img: /assets/img/path.jpg
-tags: [Deep learning, Computer Vision, Neural network, Unsupervised learning, Monocular depth estimation]
+tags: [Deep learning, Paper summary, Unsupervised learning, Monocular depth estimation]
 ---
 
 # Unsupervised Scale-consistent Depth Learning from Video
