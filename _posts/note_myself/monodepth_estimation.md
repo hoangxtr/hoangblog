@@ -46,3 +46,7 @@ thr denotes the threshold.
 The unsupervised methods also suffer from various problems, like accuracy not good compared with supervised methods, scale ambiguity and scale inconsistency. Therefore, the semi-supervised methods are proposed to get higher estimation accuracy while reducing the dependence on the expensive ground truth
 
 
+
+### Some definition:
+- **Visual Simultanious Localization And Mapping (Visual SLAM)**: It refers to the process of determining the position and orientation of a sensor with respect to its surroundings, while simultaneously mapping the environment around that sensor.
+
