@@ -10,7 +10,7 @@ tags: [Deep learning, Paper summary, Unsupervised learning, Monocular depth esti
 # Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue
 
 ## Introduce: 
-<img src="assets/img/monodepth/1603.04992/architecture.png" width=800>     
+<img src="/assets/img/monodepth/1603.04992/architecture.png" width=800>     
 
 The significant weakness of most current deep Convolutional
 Neural Networks is the need to train them using vast amounts of manually labelled data. So this paper propose unsupervised method for solve the disavantaged of supervised method. They achieve that by training the network in a manner analogous to an autoencoder. At training time they consider a pair of images, source and target, with small, known camera motion between the two such as a  stereo pair or a 2 frame of a video. They train the convolutional encoder for the task of predicting the depth map for the source image. To do that, they explicitly generate an inverse warp of the target image using the predicted depth and known inter-view displacement, to reconstruct the source image; the photometric error in the reconstruction is the reconstruction loss for the encoder.  
