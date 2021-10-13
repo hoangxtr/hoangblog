@@ -16,7 +16,7 @@ CNNs use their convolutional filters to extract information from images. Lower l
 
 ![](https://miro.medium.com/max/2000/1*bmObF5Tibc58iE9iOu327w.png)
 
-Before the apperance of this paper, CNN often use many kernel to extract information from a input, and **the network weights each of its channels equally when creating the output feature maps**. It someway cannot make impression for the important channels.SENets are all about changing this by adding a content aware mechanism (cơ chế nhận biết thông tin) to weight each channel adaptively. In it’s most basic form this could mean adding a single parameter to each channel and giving it a linear scalar how relevant each one is **(Nói tóm gọn lại là đánh trọng số cho mỗi channel**).
+Before the apperance of this paper, CNN often use many kernel to extract information from a input, and **the network weights each of its channels equally when creating the output feature maps**. It someway cannot make impression for the important channels.SENets are all about changing this by adding a content aware mechanism (cơ chế nhận biết thông tin) to weight each channel adaptively. In it’s most basic form this could mean adding a single parameter to each channel and giving it a linear scalar how relevant each one is **(In short, it will weight for each channel in a features**).
 
 ## How
 All it need to do simply add a SE-Block after the feature map so that it can make an impression for the important channels of feature map.
